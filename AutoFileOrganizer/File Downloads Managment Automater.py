@@ -6,12 +6,13 @@ import logging
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
-source_dir = "C:/Users/ALee/Downloads"
-dest_dir_video = "D:/Downloded videos"
-dest_dir_image = "D:/Downloded images"
-dest_dir_documents = "D:/Downloded documents"
-dest_dir_sfx = "D:/SFX"
-dest_dir_music = "D:/Music"
+source_dir = "Path/To/Your/Downloads" # Replace with the path to your Downloads folder
+dest_dir_video = "Path/To/Videos" # Replace with the path where you want to store videos q
+dest_dir_image = "Path/To/Images"  # Replace with the path where you want to store images
+dest_dir_documents = "Path/To/Documents"  # Replace with the path where you want to store documents
+dest_dir_sfx = "Path/To/SFX" # Replace with the path where you want to store small audio files
+dest_dir_music = "Path/To/Music" # Replace with the path where you want to store music files
+
 
 image_extensions = [".jpg", ".jpeg", ".png", ".gif", ".webp"]
 video_extensions = [".mp4", ".avi", ".mov", ".mkv"]
